@@ -1,21 +1,5 @@
-{
-    "name": "alab-dom-manipulation-part-one",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.html",
-    "scripts": {
-      "start": "parcel index.html --open",
-      "build": "parcel build index.html"
-    },
-    "dependencies": {
-      "parcel-bundler": "^1.6.1"
-    },
-    "devDependencies": {
-      "@babel/core": "7.2.0",
-      "typescript": "4.4.4"
-    },
-    "resolutions": {
-      "@babel/preset-env": "7.13.8"
-    },
-    "keywords": []
-  }
+console.log("---------part-1----------") // Part 1: Getting Started 
+//Creating the main content section
+
+// Step 1: Create a <main> element and store it in a variable named mainEl
+const mainEl = document.createElement('main');
