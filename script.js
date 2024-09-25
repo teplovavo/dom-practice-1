@@ -15,5 +15,7 @@ mainEl.classList.add('flex-ctr');
 //Add mainEl to the body of the document, =>shows up on the page
 document.body.appendChild(mainEl);
 
+console.log("Script is running. I can see background color and text is centered")
+
 ///////////////////////////////////////////////////////////////////////////////////
 console.log("---------part-2----------") //Part 2: Creating a Menu Bar
